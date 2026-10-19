@@ -67,12 +67,13 @@ export default function Home() {
           </Button>
         </div>
         <p className="text-sm text-muted-foreground">
-          You are signed in as a fictional faculty member,{" "}
+          You are viewing the site as{" "}
           <span className="font-medium text-foreground">
             {fixtures.me.full_name}
           </span>{" "}
-          (Computer Science). The {nOpps} opportunities are real grants.gov
-          listings.
+          ({fixtures.profile.department}, {fixtures.me.institution_name}),
+          using his real publication profile. The {nOpps} opportunities are
+          real grants.gov listings; colleagues shown elsewhere are fictional.
         </p>
       </section>
 

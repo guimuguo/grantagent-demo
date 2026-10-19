@@ -9,9 +9,12 @@ matching service for university faculty.
 
 - **Opportunities** are real, public grants.gov listings (snapshot of the
   date the demo was built).
-- **Everyone else is fictional** — the demo faculty member, colleagues,
-  publications, match rationales, review-queue items and agent transcripts
-  are all made up. Any resemblance to real people is coincidental.
+- **The demo user is Guimu Guo** (Computer Science, Rowan University) — his
+  real publication profile from OpenAlex. His match rationales are
+  illustrative examples written for the demo.
+- **Everyone else is fictional** — colleagues, collaborator suggestions,
+  review-queue items and other faculty's agent transcripts are made up. Any
+  resemblance to real people is coincidental.
 - **There is no backend.** Every API call is answered in the browser from
   `src/demo/fixtures.json` by `src/demo/mock.ts`. Saves, feedback and review
   decisions are kept in your browser's localStorage only ("Reset demo data"

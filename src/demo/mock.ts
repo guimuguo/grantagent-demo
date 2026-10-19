@@ -16,7 +16,7 @@ type Opp = (typeof fixtures.opportunities)[number];
 
 export type MockError = { ok: false; status: number; detail: string };
 
-const STORAGE_KEY = "grantagent-demo-state-v1";
+const STORAGE_KEY = "grantagent-demo-state-v2";
 
 type State = {
   saved: Record<string, string>; // opportunity_id -> saved_at
