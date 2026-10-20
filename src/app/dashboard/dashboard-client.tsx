@@ -15,9 +15,10 @@ import {
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
+import fixtures from "@/demo/fixtures.json";
 import { api, type ApiError } from "@/lib/api";
 import type { Session } from "@/lib/auth";
-import type { Match, OpportunityRow } from "@/lib/types";
+import type { Collaborator, Match, OpportunityRow } from "@/lib/types";
 
 const DEFAULT_MIN_SCORE = 0.3;
 
@@ -250,6 +251,11 @@ function MatchesList({
                   {!m.is_primary && m.is_collab_candidate && (
                     <Badge variant="secondary">Collab</Badge>
                   )}
+                  {!!m.collaborators?.length && (
+                    <Badge className="bg-emerald-600 text-white hover:bg-emerald-600 dark:bg-emerald-500">
+                      🤝 Team opportunity
+                    </Badge>
+                  )}
                   <CardTitle className="text-base leading-tight">
                     {m.url ? (
                       <a
@@ -305,6 +311,9 @@ function MatchesList({
               <p className="text-sm text-muted-foreground italic">
                 {m.rationale}
               </p>
+              {!!m.collaborators?.length && (
+                <CollaboratorPanel people={m.collaborators} />
+              )}
               <Link
                 className="mt-2 inline-block text-xs underline"
                 href={`/opportunities/${m.opportunity_id}`}
@@ -315,6 +324,46 @@ function MatchesList({
           )}
         </Card>
       ))}
+    </div>
+  );
+}
+
+function CollaboratorPanel({ people }: { people: Collaborator[] }) {
+  const home = fixtures.profile;
+  const depts = [home.department, ...people.map((p) => p.department)];
+  const nColleges = new Set([home.college, ...people.map((p) => p.college)]).size;
+  const allNew = people.every((p) => !p.coauthored_before);
+  return (
+    <div className="mt-4 rounded-lg border-2 border-emerald-500/70 bg-emerald-50 p-4 dark:border-emerald-500/50 dark:bg-emerald-950/30">
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+        <h3 className="text-base font-bold text-emerald-900 dark:text-emerald-200">
+          🤝 Suggested Rowan collaborators
+        </h3>
+        {allNew && (
+          <span className="text-xs font-semibold text-emerald-800 dark:text-emerald-300">
+            No prior co-authorship — new connections
+          </span>
+        )}
+      </div>
+      <p className="mt-1 text-sm font-semibold text-emerald-900 dark:text-emerald-200">
+        Proposed team: {depts.join(" + ")}
+        {nColleges > 1 && ` (${nColleges} colleges)`}
+      </p>
+      <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+        {people.map((p) => (
+          <li
+            key={p.name}
+            className="rounded-md border border-emerald-200 bg-background p-3 dark:border-emerald-800"
+          >
+            <div className="font-bold">{p.name}</div>
+            <div className="text-xs text-muted-foreground">
+              {p.department} · {p.college}
+            </div>
+            <div className="mt-1 text-sm font-medium">{p.expertise}</div>
+            <p className="mt-1 text-sm text-muted-foreground">{p.why}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

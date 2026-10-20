@@ -19,6 +19,7 @@ export type Match = {
   week_of: string;
   is_primary: boolean;
   is_collab_candidate: boolean;
+  collaborators?: Collaborator[];
 };
 
 export type OpportunityRow = {
@@ -65,4 +66,13 @@ export type Paper = {
   citation_count: number | null;
   venue: string | null;
   author_position: string | null;
+};
+
+export type Collaborator = {
+  name: string;
+  department: string;
+  college: string;
+  expertise: string;
+  why: string;
+  coauthored_before: boolean;
 };

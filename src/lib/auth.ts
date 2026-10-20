@@ -10,7 +10,7 @@ export type Session = {
 };
 
 /**
- * Demo build: there is exactly one (fictional) account and every visitor
+ * Demo build: there is exactly one account (Guimu Guo) and every visitor
  * is signed in as it. It has the admin role so the /admin pages are
  * reachable from the header.
  */

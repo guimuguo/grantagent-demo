@@ -77,6 +77,26 @@ export default function Home() {
         </p>
       </section>
 
+      <Link
+        href="/dashboard"
+        className="group rounded-xl border-2 border-emerald-500/70 bg-emerald-50 p-6 transition-colors hover:border-emerald-600 dark:border-emerald-500/50 dark:bg-emerald-950/30"
+      >
+        <h2 className="text-xl font-bold text-emerald-900 dark:text-emerald-200">
+          🤝 Builds cross-department teams
+        </h2>
+        <p className="mt-2 text-sm text-emerald-950/80 dark:text-emerald-100/80">
+          Many large federal programs (NIH BRAIN, NSF eMB, …) expect
+          interdisciplinary teams. For those, GrantAgent suggests specific
+          Rowan colleagues in other departments and colleges whose expertise
+          completes the proposal, including people the faculty member has
+          never published with. See the{" "}
+          <span className="font-semibold underline">BRAIN Initiative</span> and{" "}
+          <span className="font-semibold underline">Emerging Mathematics in Biology</span>{" "}
+          matches in the faculty view
+          <span className="inline-block transition-transform group-hover:translate-x-0.5"> →</span>
+        </p>
+      </Link>
+
       <section>
         <h2 className="mb-4 text-xl font-semibold">For faculty</h2>
         <div className="grid gap-4 sm:grid-cols-3">

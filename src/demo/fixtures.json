@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:18:46.576374+00:00",
+ "generated_at": "2026-10-20T01:57:31.051628+00:00",
  "me": {
   "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95",
   "full_name": "Guimu Guo",
@@ -2842,7 +2842,8 @@
    "rationale": "Future Computing Research funds new algorithm\u2013system co-design for emerging hardware. Guo's GPU work \u2014 GPU-accelerated maximal quasi-clique mining (2025) and GPU k-core decomposition (2023) \u2014 is exactly the hardware-aware graph-analytics agenda this program targets, with G-thinker as an established systems track record.",
    "week_of": "2026-10-19",
    "is_primary": true,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "699fba2f-7c52-79c1-a9d0-36ba8551a425",
@@ -2857,7 +2858,8 @@
    "rationale": "CIRC supports community research infrastructure. G-thinker and G-ThinkerQ (VLDB Journal 2021, TKDE 2025) are open-source subgraph-mining systems already used by other groups; a proposal to harden them into shared, GPU-enabled infrastructure is a natural fit.",
    "week_of": "2026-10-12",
    "is_primary": true,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "7be32a0b-e2df-087e-adb4-7580b106dc12",
@@ -2869,10 +2871,28 @@
    "score": 0.666,
    "verdict": "strong_fit",
    "feedback": null,
-   "rationale": "BRAIN complex-data methods calls for scalable analysis of large neural connectivity graphs. Dense-subgraph and quasi-clique mining at scale (PVLDB 2020, ICDE 2022) directly addresses finding cohesive circuits in connectome data; pair with a neuroscience collaborator for the biological aims.\n\nSuggested Rowan collaborators: Daniel Okafor (Cooper Medical School); Priya Raman (Biomedical Engineering).",
+   "rationale": "BRAIN complex-data methods calls for scalable analysis of large neural connectivity graphs. Dense-subgraph and quasi-clique mining at scale (PVLDB 2020, ICDE 2022) directly addresses finding cohesive circuits in connectome data; pair with a neuroscience collaborator for the biological aims.",
    "week_of": "2026-10-19",
    "is_primary": true,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": [
+    {
+     "name": "Oscar Quinn",
+     "department": "Psychology",
+     "college": "College of Humanities & Social Sciences",
+     "expertise": "Cognitive neuroscience; fMRI functional-connectivity studies",
+     "why": "Supplies the neural connectivity data and the biological questions; Guo's dense-subgraph mining finds the candidate circuits.",
+     "coauthored_before": false
+    },
+    {
+     "name": "Adrian Voss",
+     "department": "Biomedical Sciences",
+     "college": "Cooper Medical School of Rowan University",
+     "expertise": "Clinical neurology; connectome changes in neurodegenerative disease",
+     "why": "Clinical cohort and disease aims, which BRAIN reviewers expect alongside the computational methods.",
+     "coauthored_before": false
+    }
+   ]
   },
   {
    "match_id": "2c81abe7-0969-21fe-397a-14da41260035",
@@ -2884,10 +2904,11 @@
    "score": 0.5864,
    "verdict": "possible_fit",
    "feedback": null,
-   "rationale": "Expeditions needs a large multi-institution team with a transformative computing agenda. Guo's parallel graph-mining systems could anchor a scalable-analytics thrust; joining an existing team is more realistic than leading as an early-career PI.\n\nSuggested Rowan collaborators: Hannah Weiss (Electrical & Computer Engineering).",
+   "rationale": "Expeditions needs a large multi-institution team with a transformative computing agenda. Guo's parallel graph-mining systems could anchor a scalable-analytics thrust; joining an existing team is more realistic than leading as an early-career PI.",
    "week_of": "2026-10-05",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "a6d26e04-9af2-8125-9b44-032456eb6b68",
@@ -2899,10 +2920,28 @@
    "score": 0.569,
    "verdict": "possible_fit",
    "feedback": null,
-   "rationale": "Emerging Mathematics in Biology funds new mathematical/computational methods for biological networks. Guo's 'Biological Network Mining' chapters and de novo genome assembly on a Pregel-like system show relevant bio-graph experience.",
+   "rationale": "Emerging Mathematics in Biology funds new mathematical/computational methods for biological networks. Guo's 'Biological Network Mining' chapters and de novo genome assembly on a Pregel-like system show relevant bio-graph experience; a mathematical-biology partner would strengthen the new-mathematics aim.",
    "week_of": "2026-10-12",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": [
+    {
+     "name": "Nora Lindqvist",
+     "department": "Mathematics",
+     "college": "College of Science & Mathematics",
+     "expertise": "Mathematical biology; dynamical models on networks",
+     "why": "eMB requires a genuinely new mathematical contribution; her network-dynamics models pair with Guo's scalable graph algorithms.",
+     "coauthored_before": false
+    },
+    {
+     "name": "Tara Whitaker",
+     "department": "Biological & Biomedical Sciences",
+     "college": "College of Science & Mathematics",
+     "expertise": "Systems biology; protein\u2013protein interaction networks",
+     "why": "Provides the biological networks and wet-lab validation for the modules the algorithms discover.",
+     "coauthored_before": false
+    }
+   ]
   },
   {
    "match_id": "f3b7f599-023c-3204-2fd5-1fdb38a8806f",
@@ -2917,7 +2956,8 @@
    "rationale": "BRAIN CONNECTS specialized projects need tools that scale connectivity analysis across brain regions. GPU k-core and quasi-clique mining fit the scalable-analysis component; the imaging pipeline would need a partner lab.",
    "week_of": "2026-10-05",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "2042b996-b1ee-6ec4-33f1-bde15830c03a",
@@ -2932,7 +2972,8 @@
    "rationale": "AIMing combines AI with formal and mathematical reasoning. Exact, provably complete enumeration in quasi-clique mining is a related angle, but the program's center of gravity is theorem proving and verification \u2014 a weaker fit.",
    "week_of": "2026-09-28",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "3a766b4c-9a23-301c-5daf-ac44d7a9f327",
@@ -2947,7 +2988,8 @@
    "rationale": "Modeling the functional impact of genomic variation increasingly uses variant\u2013gene interaction graphs. Guo's graph-parallel genome assembly paper (IEEE/ACM TCBB 2019) is relevant as the computational engine; the genomics lead would come from a biology collaborator.",
    "week_of": "2026-09-28",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "869873d7-d6eb-a62d-33c9-affc61939ad1",
@@ -2962,7 +3004,8 @@
    "rationale": "Unlocking Dataset Value funds tooling that makes scientific datasets AI-ready. Scalable subgraph querying (G-ThinkerQ) could support graph-structured scientific datasets, though the program favors data-curation work.",
    "week_of": "2026-10-19",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "14b8541b-771b-8079-a160-ebcec75355f1",
@@ -2977,7 +3020,8 @@
    "rationale": "State and regional AI infrastructure hubs are institution-level bids. Guo could contribute GPU graph-analytics expertise as a research-thrust lead within a Rowan-led proposal.",
    "week_of": "2026-10-12",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "412d313e-e78a-151b-9e03-baab7f3be1b1",
@@ -2989,10 +3033,11 @@
    "score": 0.4338,
    "verdict": "possible_fit",
    "feedback": null,
-   "rationale": "Drug repositioning relies on mining drug\u2013target\u2013disease networks. Dense-subgraph discovery on biological networks is directly applicable, provided a pharmacology collaborator leads experimental validation.\n\nSuggested Rowan collaborators: Marcus Bell (Chemistry & Biochemistry).",
+   "rationale": "Drug repositioning relies on mining drug\u2013target\u2013disease networks. Dense-subgraph discovery on biological networks is directly applicable, provided a pharmacology collaborator leads experimental validation.",
    "week_of": "2026-10-05",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   },
   {
    "match_id": "93bd3267-9ee8-22c1-b2fd-0d1f7ca8d03b",
@@ -3007,7 +3052,8 @@
    "rationale": "Data Science Corps supports student data-science projects on community problems. A good fit for teaching and outreach (e.g. the transportation open-data simulation work), though it is primarily an education award.",
    "week_of": "2026-09-28",
    "is_primary": false,
-   "is_collab_candidate": false
+   "is_collab_candidate": false,
+   "collaborators": []
   }
  ],
  "admin_matches": [
@@ -3058,7 +3104,7 @@
    "feedback": null,
    "is_primary": true,
    "is_collab_candidate": false,
-   "rationale": "BRAIN complex-data methods calls for scalable analysis of large neural connectivity graphs. Dense-subgraph and quasi-clique mining at scale (PVLDB 2020, ICDE 2022) directly addresses finding cohesive circuits in connectome data; pair with a neuroscience collaborator for the biological aims.\n\nSuggested Rowan collaborators: Daniel Okafor (Cooper Medical School); Priya Raman (Biomedical Engineering).",
+   "rationale": "BRAIN complex-data methods calls for scalable analysis of large neural connectivity graphs. Dense-subgraph and quasi-clique mining at scale (PVLDB 2020, ICDE 2022) directly addresses finding cohesive circuits in connectome data; pair with a neuroscience collaborator for the biological aims.",
    "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95",
    "faculty_name": "Guimu Guo",
    "faculty_email": "guog@rowan.edu",
@@ -3077,7 +3123,7 @@
    "feedback": null,
    "is_primary": false,
    "is_collab_candidate": false,
-   "rationale": "Expeditions needs a large multi-institution team with a transformative computing agenda. Guo's parallel graph-mining systems could anchor a scalable-analytics thrust; joining an existing team is more realistic than leading as an early-career PI.\n\nSuggested Rowan collaborators: Hannah Weiss (Electrical & Computer Engineering).",
+   "rationale": "Expeditions needs a large multi-institution team with a transformative computing agenda. Guo's parallel graph-mining systems could anchor a scalable-analytics thrust; joining an existing team is more realistic than leading as an early-career PI.",
    "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95",
    "faculty_name": "Guimu Guo",
    "faculty_email": "guog@rowan.edu",
@@ -3096,7 +3142,7 @@
    "feedback": null,
    "is_primary": false,
    "is_collab_candidate": false,
-   "rationale": "Emerging Mathematics in Biology funds new mathematical/computational methods for biological networks. Guo's 'Biological Network Mining' chapters and de novo genome assembly on a Pregel-like system show relevant bio-graph experience.",
+   "rationale": "Emerging Mathematics in Biology funds new mathematical/computational methods for biological networks. Guo's 'Biological Network Mining' chapters and de novo genome assembly on a Pregel-like system show relevant bio-graph experience; a mathematical-biology partner would strengthen the new-mathematics aim.",
    "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95",
    "faculty_name": "Guimu Guo",
    "faculty_email": "guog@rowan.edu",
@@ -3210,7 +3256,7 @@
    "feedback": null,
    "is_primary": false,
    "is_collab_candidate": false,
-   "rationale": "Drug repositioning relies on mining drug\u2013target\u2013disease networks. Dense-subgraph discovery on biological networks is directly applicable, provided a pharmacology collaborator leads experimental validation.\n\nSuggested Rowan collaborators: Marcus Bell (Chemistry & Biochemistry).",
+   "rationale": "Drug repositioning relies on mining drug\u2013target\u2013disease networks. Dense-subgraph discovery on biological networks is directly applicable, provided a pharmacology collaborator leads experimental validation.",
    "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95",
    "faculty_name": "Guimu Guo",
    "faculty_email": "guog@rowan.edu",
@@ -3552,7 +3598,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 82,
-   "last_profiled_at": "2026-08-09T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-10T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "a7379a75-3880-de20-f254-2d473c2b7b2b",
@@ -3566,7 +3612,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 83,
-   "last_profiled_at": "2026-06-26T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-27T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "c0ba194c-7071-47a3-e953-94b117adfba1",
@@ -3580,7 +3626,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 27,
-   "last_profiled_at": "2026-09-26T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-27T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "f9279400-a00f-ea1e-5724-9c50d312c72a",
@@ -3594,7 +3640,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 28,
-   "last_profiled_at": "2026-08-30T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-31T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "f45dbfc7-0936-d982-5323-69e74a9ec311",
@@ -3608,7 +3654,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 93,
-   "last_profiled_at": "2026-08-09T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-10T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "e0b40430-f5e7-78e7-e055-e951650ff74a",
@@ -3636,7 +3682,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 54,
-   "last_profiled_at": "2026-08-03T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-04T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "2f722c95-2a5a-f1ed-ab2d-d7b362a11b95",
@@ -3650,7 +3696,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 43,
-   "last_profiled_at": "2026-07-04T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-05T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "75da076e-65f2-275f-807f-c2787d24565b",
@@ -3678,7 +3724,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 92,
-   "last_profiled_at": "2026-07-31T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-01T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "eaade89b-ea7e-74b7-55be-c683775bdf24",
@@ -3692,7 +3738,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 19,
-   "last_profiled_at": "2026-08-29T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-30T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "7be91555-e0d0-9a0e-98c0-6667bad189d8",
@@ -3706,7 +3752,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 13,
-   "last_profiled_at": "2026-06-26T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-27T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "a12ea34d-cb71-5fe2-68f8-23931f7b7975",
@@ -3720,7 +3766,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 106,
-   "last_profiled_at": "2026-09-18T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-19T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "16491284-d93e-c251-14de-3c32da9b5110",
@@ -3734,7 +3780,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 70,
-   "last_profiled_at": "2026-06-26T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-27T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "74144a11-76e2-4ad5-6e68-8cacd42780f3",
@@ -3748,7 +3794,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 133,
-   "last_profiled_at": "2026-07-17T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-18T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "c92f4571-fdbf-e462-a2c0-cca50a327eef",
@@ -3762,7 +3808,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 29,
-   "last_profiled_at": "2026-09-28T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-29T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "14d14a36-0bdf-a739-fb59-f5809a0d215b",
@@ -3776,7 +3822,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 29,
-   "last_profiled_at": "2026-06-19T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-20T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "26da771b-9369-0e7f-3eb9-f3d6e7178a9b",
@@ -3790,7 +3836,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 58,
-   "last_profiled_at": "2026-06-22T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-23T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "fdef787f-f7e1-20e1-f3f0-e4b066c1eb8e",
@@ -3804,7 +3850,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 93,
-   "last_profiled_at": "2026-06-19T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-20T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "15a7e3f4-6389-bfc9-56ac-675d01584fa6",
@@ -3818,7 +3864,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 41,
-   "last_profiled_at": "2026-08-11T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-12T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "5688ee25-40b6-77cf-8b18-8ac77236ac2f",
@@ -3832,7 +3878,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 109,
-   "last_profiled_at": "2026-05-25T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-05-26T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "1791e6c8-5a1e-f900-9e47-bb2b97f4de79",
@@ -3860,7 +3906,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 12,
-   "last_profiled_at": "2026-07-28T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-29T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "04ba787c-2d02-11ae-4071-9f912c24dfc1",
@@ -3874,7 +3920,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 75,
-   "last_profiled_at": "2026-09-12T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-13T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "22075f1c-6b5b-9531-428e-8268c02424b7",
@@ -3902,7 +3948,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 97,
-   "last_profiled_at": "2026-06-12T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-13T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "a46934c3-112f-210a-67f7-28290a7ea06d",
@@ -3916,7 +3962,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 115,
-   "last_profiled_at": "2026-07-19T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-20T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "2504856c-0cf7-7d79-0f3d-06208893af53",
@@ -3930,7 +3976,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 139,
-   "last_profiled_at": "2026-09-25T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-26T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "871d7731-ec2f-e52f-bc33-c5f6537ba87f",
@@ -3944,7 +3990,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 125,
-   "last_profiled_at": "2026-09-18T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-19T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "352083cb-30fb-db24-2058-3409be8550ca",
@@ -3972,7 +4018,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 97,
-   "last_profiled_at": "2026-06-28T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-29T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "eb7f643b-73ae-9b99-9299-cb35482e2d2a",
@@ -4000,7 +4046,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 131,
-   "last_profiled_at": "2026-08-05T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-06T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "7ed8d279-de83-21f2-0830-d753e91be8ae",
@@ -4014,7 +4060,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 45,
-   "last_profiled_at": "2026-09-05T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-06T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "6f01175d-bb46-694e-301a-c6e31649844d",
@@ -4028,7 +4074,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 53,
-   "last_profiled_at": "2026-10-09T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-10-10T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "0b422631-d3fa-327f-9775-5677378e25c6",
@@ -4056,7 +4102,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 13,
-   "last_profiled_at": "2026-05-15T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-05-16T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "ff7fc69d-2c1d-8b43-8cb1-180675653ae9",
@@ -4070,7 +4116,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 65,
-   "last_profiled_at": "2026-08-29T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-30T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "66d4bec8-5027-7625-5cf8-ce1b68f86819",
@@ -4084,7 +4130,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 134,
-   "last_profiled_at": "2026-08-14T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-08-15T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "4d847858-562d-3f4a-5d85-da6df79953d3",
@@ -4098,7 +4144,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 82,
-   "last_profiled_at": "2026-07-27T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-28T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "f43e6f66-f104-e25d-0037-b0285e971aee",
@@ -4112,7 +4158,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 53,
-   "last_profiled_at": "2026-10-13T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-10-14T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "1256a14e-0b33-66de-e27b-74fd16a73415",
@@ -4126,7 +4172,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 29,
-   "last_profiled_at": "2026-07-17T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-18T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "866d59ea-2ec8-372e-3c9c-c194ace45bd5",
@@ -4140,7 +4186,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 35,
-   "last_profiled_at": "2026-07-22T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-07-23T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "d9694652-4d0b-aaa0-26db-ce955e6557ca",
@@ -4154,7 +4200,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 22,
-   "last_profiled_at": "2026-09-24T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-09-25T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "6c9418d9-ed07-7759-9214-3bda3a6dae7e",
@@ -4168,7 +4214,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 50,
-   "last_profiled_at": "2026-06-26T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-06-27T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "193394cc-6cbe-c571-29e5-1793850316d2",
@@ -4182,7 +4228,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 123,
-   "last_profiled_at": "2026-10-12T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-10-13T01:57:31.051628+00:00"
   },
   {
    "faculty_id": "ecb8205e-c484-1fc8-4ac1-3f14562383a9",
@@ -4196,7 +4242,7 @@
    "role": "faculty",
    "institution_name": "Rowan University",
    "paper_count": 16,
-   "last_profiled_at": "2026-10-08T21:18:46.576374+00:00"
+   "last_profiled_at": "2026-10-09T01:57:31.051628+00:00"
   }
  ],
  "reviews": [
@@ -4219,7 +4265,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-18T11:18:46.576374+00:00",
+   "created_at": "2026-10-18T15:57:31.051628+00:00",
    "faculty_name": "Isaac Bennett",
    "faculty_email": "isaac.bennett@example.edu"
   },
@@ -4242,7 +4288,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-17T13:18:46.576374+00:00",
+   "created_at": "2026-10-17T17:57:31.051628+00:00",
    "faculty_name": "Aisha Ricci",
    "faculty_email": "aisha.ricci@example.edu"
   },
@@ -4265,7 +4311,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-16T01:18:46.576374+00:00",
+   "created_at": "2026-10-16T05:57:31.051628+00:00",
    "faculty_name": "Amara Romano",
    "faculty_email": "amara.romano@example.edu"
   },
@@ -4282,7 +4328,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-14T01:18:46.576374+00:00",
+   "created_at": "2026-10-14T05:57:31.051628+00:00",
    "faculty_name": "Jonah Reyes",
    "faculty_email": "jonah.reyes@example.edu"
   },
@@ -4299,7 +4345,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-14T13:18:46.576374+00:00",
+   "created_at": "2026-10-14T17:57:31.051628+00:00",
    "faculty_name": "Victor Brennan",
    "faculty_email": "victor.brennan@example.edu"
   },
@@ -4331,7 +4377,7 @@
    "reviewed_by": null,
    "reviewed_at": null,
    "notes": null,
-   "created_at": "2026-10-16T20:18:46.576374+00:00",
+   "created_at": "2026-10-17T00:57:31.051628+00:00",
    "faculty_name": "Luca Forsyth",
    "faculty_email": "luca.forsyth@example.edu"
   },
@@ -4350,9 +4396,9 @@
    },
    "status": "approved",
    "reviewed_by": "guog@rowan.edu",
-   "reviewed_at": "2026-09-30T03:18:46.576374+00:00",
+   "reviewed_at": "2026-09-30T07:57:31.051628+00:00",
    "notes": "Confirmed via ORCID.",
-   "created_at": "2026-09-29T03:18:46.576374+00:00",
+   "created_at": "2026-09-29T07:57:31.051628+00:00",
    "faculty_name": "Omar Lindqvist",
    "faculty_email": "omar.lindqvist@example.edu"
   },
@@ -4367,21 +4413,21 @@
    },
    "status": "resolved",
    "reviewed_by": "guog@rowan.edu",
-   "reviewed_at": "2026-09-20T03:18:46.576374+00:00",
+   "reviewed_at": "2026-09-20T07:57:31.051628+00:00",
    "notes": "Rebuilt after ORCID added.",
-   "created_at": "2026-09-19T03:18:46.576374+00:00",
+   "created_at": "2026-09-19T07:57:31.051628+00:00",
    "faculty_name": "Adrian Voss",
    "faculty_email": "adrian.voss@example.edu"
   }
  ],
  "runs": [
   {
-   "run_id": "375d69cc-3abb-ce06-3ae8-92633e9042a9",
+   "run_id": "4c52e99b-cc92-4531-6061-e21888f099cc",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "49f0cc74-9f96-3c2c-8ae1-bdcff2008b1f",
-   "started_at": "2026-10-19T15:18:46.576374+00:00",
-   "finished_at": "2026-10-19T15:18:54.461374+00:00",
+   "started_at": "2026-10-19T19:57:31.051628+00:00",
+   "finished_at": "2026-10-19T19:57:38.936628+00:00",
    "duration_ms": 7885,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -4481,12 +4527,14 @@
    "output": {
     "collaborators": [
      {
-      "name": "Daniel Okafor (Cooper Medical School)",
-      "why": "Complementary expertise required by the solicitation's clinical/experimental aims."
+      "name": "Oscar Quinn",
+      "department": "Psychology",
+      "why": "Supplies the neural connectivity data and the biological questions; Guo's dense-subgraph mining finds the candidate circuits."
      },
      {
-      "name": "Priya Raman (Biomedical Engineering)",
-      "why": "Complementary expertise required by the solicitation's clinical/experimental aims."
+      "name": "Adrian Voss",
+      "department": "Biomedical Sciences",
+      "why": "Clinical cohort and disease aims, which BRAIN reviewers expect alongside the computational methods."
      }
     ]
    },
@@ -4639,12 +4687,12 @@
    "error": null
   },
   {
-   "run_id": "ca5578c8-7e96-6891-b093-0919a0a7e0cd",
+   "run_id": "391b4554-d22c-1b18-bb4a-5250955faf5c",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "15a7e3f4-6389-bfc9-56ac-675d01584fa6",
-   "started_at": "2026-10-18T21:18:46.576374+00:00",
-   "finished_at": "2026-10-18T21:18:52.500374+00:00",
+   "started_at": "2026-10-19T01:57:31.051628+00:00",
+   "finished_at": "2026-10-19T01:57:36.975628+00:00",
    "duration_ms": 5924,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -4703,12 +4751,12 @@
    "error": null
   },
   {
-   "run_id": "ad3fb25c-4dbf-e49d-e6e0-bab4ee08b898",
+   "run_id": "3c8f21db-0c5b-5efb-483e-90d58eec7112",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "fdef787f-f7e1-20e1-f3f0-e4b066c1eb8e",
-   "started_at": "2026-10-14T14:18:46.576374+00:00",
-   "finished_at": "2026-10-14T14:18:54.853374+00:00",
+   "started_at": "2026-10-14T18:57:31.051628+00:00",
+   "finished_at": "2026-10-14T18:57:39.328628+00:00",
    "duration_ms": 8277,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -4767,12 +4815,12 @@
    "error": null
   },
   {
-   "run_id": "89a536d8-4899-0d1a-a12c-dba131537ec0",
+   "run_id": "dc25bf45-c723-eba8-1748-2589bb8a7366",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "26da771b-9369-0e7f-3eb9-f3d6e7178a9b",
-   "started_at": "2026-10-13T21:18:46.576374+00:00",
-   "finished_at": "2026-10-13T21:18:54.336374+00:00",
+   "started_at": "2026-10-14T01:57:31.051628+00:00",
+   "finished_at": "2026-10-14T01:57:38.811628+00:00",
    "duration_ms": 7760,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -4827,6 +4875,61 @@
      "Single Rowan-affiliated author record whose topics match Educational Services & Leadership."
     ],
     "ambiguity_notes": null
+   },
+   "error": null
+  },
+  {
+   "run_id": "d6830143-3838-bdf4-31a1-b15f8f474650",
+   "agent_name": "collaborator_analyst",
+   "input_ref_type": "match",
+   "input_ref_id": "a6d26e04-9af2-8125-9b44-032456eb6b68",
+   "started_at": "2026-10-12T11:30:00+00:00",
+   "finished_at": "2026-10-12T11:30:12.867000+00:00",
+   "duration_ms": 12867,
+   "tool_calls_made": 3,
+   "step_budget_hit": false,
+   "model": "claude-sonnet-4-5",
+   "input_tokens": 10132,
+   "output_tokens": 719,
+   "has_error": false,
+   "transcript": [
+    {
+     "role": "user",
+     "content": "Suggest Rowan collaborators for match a6d26e04-9af2-8125-9b44-032456eb6b68."
+    },
+    {
+     "role": "assistant",
+     "content": [
+      {
+       "type": "tool_use",
+       "name": "coauthor_graph_lookup",
+       "input": {
+        "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95"
+       }
+      },
+      {
+       "type": "tool_use",
+       "name": "complementary_department_search",
+       "input": {
+        "opportunity_id": "a29317be-a632-4435-b724-3fccbb3a45fd"
+       }
+      }
+     ]
+    }
+   ],
+   "output": {
+    "collaborators": [
+     {
+      "name": "Nora Lindqvist",
+      "department": "Mathematics",
+      "why": "eMB requires a genuinely new mathematical contribution; her network-dynamics models pair with Guo's scalable graph algorithms."
+     },
+     {
+      "name": "Tara Whitaker",
+      "department": "Biological & Biomedical Sciences",
+      "why": "Provides the biological networks and wet-lab validation for the modules the algorithms discover."
+     }
+    ]
    },
    "error": null
   },
@@ -4977,12 +5080,12 @@
    "error": null
   },
   {
-   "run_id": "0c35d23c-3e0d-73e6-ddaf-2cc3d8c8f3ec",
+   "run_id": "8df2bdc4-5639-51d1-479d-500ed00b5ed1",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "2f722c95-2a5a-f1ed-ab2d-d7b362a11b95",
-   "started_at": "2026-10-11T22:18:46.576374+00:00",
-   "finished_at": "2026-10-11T22:18:50.832374+00:00",
+   "started_at": "2026-10-12T02:57:31.051628+00:00",
+   "finished_at": "2026-10-12T02:57:35.307628+00:00",
    "duration_ms": 4256,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5041,12 +5144,12 @@
    "error": null
   },
   {
-   "run_id": "4f64be71-0986-ac07-1d97-3b107aed8e97",
+   "run_id": "261af619-6ba5-6d4f-0a2e-1a26e5c4e124",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "1791e6c8-5a1e-f900-9e47-bb2b97f4de79",
-   "started_at": "2026-10-10T23:18:46.576374+00:00",
-   "finished_at": "2026-10-10T23:18:55.120374+00:00",
+   "started_at": "2026-10-11T03:57:31.051628+00:00",
+   "finished_at": "2026-10-11T03:57:39.595628+00:00",
    "duration_ms": 8544,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5105,12 +5208,12 @@
    "error": null
   },
   {
-   "run_id": "aca02ea1-724b-c402-308c-8585b89800dd",
+   "run_id": "0e582292-01cf-070b-cebd-93344228e0c1",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "352083cb-30fb-db24-2058-3409be8550ca",
-   "started_at": "2026-10-10T18:18:46.576374+00:00",
-   "finished_at": "2026-10-10T18:19:16.696374+00:00",
+   "started_at": "2026-10-10T22:57:31.051628+00:00",
+   "finished_at": "2026-10-10T22:58:01.171628+00:00",
    "duration_ms": 30120,
    "tool_calls_made": 1,
    "step_budget_hit": false,
@@ -5128,12 +5231,12 @@
    "error": "OpenAlex API returned 429 Too Many Requests (rate limit) \u2014 will retry next run"
   },
   {
-   "run_id": "a1cd3dac-f7ad-c2f0-446b-4df0667a4177",
+   "run_id": "84b21ed5-61c1-8b81-a267-fc99ef674cf0",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "154598e1-9ca0-5464-c7dd-6f04d91d4dbe",
-   "started_at": "2026-10-10T03:18:46.576374+00:00",
-   "finished_at": "2026-10-10T03:18:52.314374+00:00",
+   "started_at": "2026-10-10T07:57:31.051628+00:00",
+   "finished_at": "2026-10-10T07:57:36.789628+00:00",
    "duration_ms": 5738,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5192,12 +5295,12 @@
    "error": null
   },
   {
-   "run_id": "2e0ff249-fd5d-e57a-2796-ecce4b9b24df",
+   "run_id": "bbfd1bca-7bff-6ae2-8d5d-a47dc00bccc9",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "e0b40430-f5e7-78e7-e055-e951650ff74a",
-   "started_at": "2026-10-09T15:18:46.576374+00:00",
-   "finished_at": "2026-10-09T15:18:49.950374+00:00",
+   "started_at": "2026-10-09T19:57:31.051628+00:00",
+   "finished_at": "2026-10-09T19:57:34.425628+00:00",
    "duration_ms": 3374,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5256,12 +5359,12 @@
    "error": null
   },
   {
-   "run_id": "94787096-89ae-e075-ef20-aab39d537dbb",
+   "run_id": "5ae7ef98-a8d4-20af-72ef-ec727935c8a2",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "5688ee25-40b6-77cf-8b18-8ac77236ac2f",
-   "started_at": "2026-10-06T19:18:46.576374+00:00",
-   "finished_at": "2026-10-06T19:18:49.746374+00:00",
+   "started_at": "2026-10-06T23:57:31.051628+00:00",
+   "finished_at": "2026-10-06T23:57:34.221628+00:00",
    "duration_ms": 3170,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5320,12 +5423,12 @@
    "error": null
   },
   {
-   "run_id": "f9ad19b7-d66f-e73f-b749-a204b70f7d72",
+   "run_id": "2ad99354-0963-920b-a888-8d29fd65de5b",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "eaade89b-ea7e-74b7-55be-c683775bdf24",
-   "started_at": "2026-10-06T09:18:46.576374+00:00",
-   "finished_at": "2026-10-06T09:18:51.554374+00:00",
+   "started_at": "2026-10-06T13:57:31.051628+00:00",
+   "finished_at": "2026-10-06T13:57:36.029628+00:00",
    "duration_ms": 4978,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5384,12 +5487,12 @@
    "error": null
   },
   {
-   "run_id": "14ab3767-f113-7469-c21d-1e64dd7eb7dd",
+   "run_id": "d5e13db9-3b49-8e4b-427b-a6692802a0ae",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "adfb4748-ab51-13dc-e05a-668ce6e0f80c",
-   "started_at": "2026-10-06T02:18:46.576374+00:00",
-   "finished_at": "2026-10-06T02:18:52.796374+00:00",
+   "started_at": "2026-10-06T06:57:31.051628+00:00",
+   "finished_at": "2026-10-06T06:57:37.271628+00:00",
    "duration_ms": 6220,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5444,104 +5547,6 @@
      "Single Rowan-affiliated author record whose topics match Mechanical Engineering."
     ],
     "ambiguity_notes": null
-   },
-   "error": null
-  },
-  {
-   "run_id": "852bb109-9d1f-7b49-ef52-afb4c72c66e8",
-   "agent_name": "collaborator_analyst",
-   "input_ref_type": "match",
-   "input_ref_id": "2c81abe7-0969-21fe-397a-14da41260035",
-   "started_at": "2026-10-05T11:30:00+00:00",
-   "finished_at": "2026-10-05T11:30:12.867000+00:00",
-   "duration_ms": 12867,
-   "tool_calls_made": 3,
-   "step_budget_hit": false,
-   "model": "claude-sonnet-4-5",
-   "input_tokens": 10132,
-   "output_tokens": 719,
-   "has_error": false,
-   "transcript": [
-    {
-     "role": "user",
-     "content": "Suggest Rowan collaborators for match 2c81abe7-0969-21fe-397a-14da41260035."
-    },
-    {
-     "role": "assistant",
-     "content": [
-      {
-       "type": "tool_use",
-       "name": "coauthor_graph_lookup",
-       "input": {
-        "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95"
-       }
-      },
-      {
-       "type": "tool_use",
-       "name": "complementary_department_search",
-       "input": {
-        "opportunity_id": "67591dc8-c9c8-49fb-a939-e62d6e2cd6c9"
-       }
-      }
-     ]
-    }
-   ],
-   "output": {
-    "collaborators": [
-     {
-      "name": "Hannah Weiss (Electrical & Computer Engineering)",
-      "why": "Complementary expertise required by the solicitation's clinical/experimental aims."
-     }
-    ]
-   },
-   "error": null
-  },
-  {
-   "run_id": "3265584e-0320-51cf-7436-3f17b7e06b40",
-   "agent_name": "collaborator_analyst",
-   "input_ref_type": "match",
-   "input_ref_id": "412d313e-e78a-151b-9e03-baab7f3be1b1",
-   "started_at": "2026-10-05T11:30:00+00:00",
-   "finished_at": "2026-10-05T11:30:17.701000+00:00",
-   "duration_ms": 17701,
-   "tool_calls_made": 3,
-   "step_budget_hit": false,
-   "model": "claude-sonnet-4-5",
-   "input_tokens": 10689,
-   "output_tokens": 930,
-   "has_error": false,
-   "transcript": [
-    {
-     "role": "user",
-     "content": "Suggest Rowan collaborators for match 412d313e-e78a-151b-9e03-baab7f3be1b1."
-    },
-    {
-     "role": "assistant",
-     "content": [
-      {
-       "type": "tool_use",
-       "name": "coauthor_graph_lookup",
-       "input": {
-        "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95"
-       }
-      },
-      {
-       "type": "tool_use",
-       "name": "complementary_department_search",
-       "input": {
-        "opportunity_id": "9bc67112-9535-4631-af23-5bd5c0a19f94"
-       }
-      }
-     ]
-    }
-   ],
-   "output": {
-    "collaborators": [
-     {
-      "name": "Marcus Bell (Chemistry & Biochemistry)",
-      "why": "Complementary expertise required by the solicitation's clinical/experimental aims."
-     }
-    ]
    },
    "error": null
   },
@@ -5692,12 +5697,12 @@
    "error": null
   },
   {
-   "run_id": "68b34e56-976b-bfed-639a-7d63da94114c",
+   "run_id": "f1f62134-401a-7f06-2e35-4db6ff4bf536",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "c92f4571-fdbf-e462-a2c0-cca50a327eef",
-   "started_at": "2026-10-04T03:18:46.576374+00:00",
-   "finished_at": "2026-10-04T03:18:51.456374+00:00",
+   "started_at": "2026-10-04T07:57:31.051628+00:00",
+   "finished_at": "2026-10-04T07:57:35.931628+00:00",
    "duration_ms": 4880,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5756,12 +5761,12 @@
    "error": null
   },
   {
-   "run_id": "41b993f3-dc62-ef8e-ac0a-1f1345c2c1f3",
+   "run_id": "115338ae-eff7-3379-34f8-d4f5b56cdf80",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "74144a11-76e2-4ad5-6e68-8cacd42780f3",
-   "started_at": "2026-10-01T15:18:46.576374+00:00",
-   "finished_at": "2026-10-01T15:18:51.619374+00:00",
+   "started_at": "2026-10-01T19:57:31.051628+00:00",
+   "finished_at": "2026-10-01T19:57:36.094628+00:00",
    "duration_ms": 5043,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5820,12 +5825,12 @@
    "error": null
   },
   {
-   "run_id": "26f0b85c-eaa8-68af-da26-1395b61d6e7f",
+   "run_id": "0280f1c0-cc9e-258c-7ddc-76777838e818",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "7be91555-e0d0-9a0e-98c0-6667bad189d8",
-   "started_at": "2026-09-30T23:18:46.576374+00:00",
-   "finished_at": "2026-09-30T23:18:54.418374+00:00",
+   "started_at": "2026-10-01T03:57:31.051628+00:00",
+   "finished_at": "2026-10-01T03:57:38.893628+00:00",
    "duration_ms": 7842,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5884,12 +5889,12 @@
    "error": null
   },
   {
-   "run_id": "ca856ac7-28fd-3461-937e-94366d055fcd",
+   "run_id": "f5dcd283-5b8d-0401-30f1-e0ca8ec9536c",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "a12ea34d-cb71-5fe2-68f8-23931f7b7975",
-   "started_at": "2026-09-28T20:18:46.576374+00:00",
-   "finished_at": "2026-09-28T20:18:49.206374+00:00",
+   "started_at": "2026-09-29T00:57:31.051628+00:00",
+   "finished_at": "2026-09-29T00:57:33.681628+00:00",
    "duration_ms": 2630,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -5948,12 +5953,12 @@
    "error": null
   },
   {
-   "run_id": "e7aabdf5-8122-f4e6-a50e-8a769779ec68",
+   "run_id": "cb8f4832-6147-3d08-c538-400a4fe8a7fd",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "75da076e-65f2-275f-807f-c2787d24565b",
-   "started_at": "2026-09-28T15:18:46.576374+00:00",
-   "finished_at": "2026-09-28T15:18:50.337374+00:00",
+   "started_at": "2026-09-28T19:57:31.051628+00:00",
+   "finished_at": "2026-09-28T19:57:34.812628+00:00",
    "duration_ms": 3761,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -6012,12 +6017,12 @@
    "error": null
   },
   {
-   "run_id": "bb3bf0dd-3858-beb0-bfb0-c735b2c4ef3b",
+   "run_id": "df8c0e42-5ad5-ef04-ad28-895bf7db7cb3",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "04ba787c-2d02-11ae-4071-9f912c24dfc1",
-   "started_at": "2026-09-27T15:18:46.576374+00:00",
-   "finished_at": "2026-09-27T15:18:50.601374+00:00",
+   "started_at": "2026-09-27T19:57:31.051628+00:00",
+   "finished_at": "2026-09-27T19:57:35.076628+00:00",
    "duration_ms": 4025,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -6076,12 +6081,12 @@
    "error": null
   },
   {
-   "run_id": "b78ef783-19bb-1b9b-755d-9113ed390c70",
+   "run_id": "8bc67702-7694-bc54-9603-56ae9f93545d",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "22075f1c-6b5b-9531-428e-8268c02424b7",
-   "started_at": "2026-09-27T11:18:46.576374+00:00",
-   "finished_at": "2026-09-27T11:18:50.024374+00:00",
+   "started_at": "2026-09-27T15:57:31.051628+00:00",
+   "finished_at": "2026-09-27T15:57:34.499628+00:00",
    "duration_ms": 3448,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -6140,12 +6145,12 @@
    "error": null
   },
   {
-   "run_id": "851e06c0-0b6c-87f1-e86b-437a02727588",
+   "run_id": "977bb7ba-41a6-dc7c-adca-de70d0d1ff6f",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "16491284-d93e-c251-14de-3c32da9b5110",
-   "started_at": "2026-09-24T06:18:46.576374+00:00",
-   "finished_at": "2026-09-24T06:18:53.856374+00:00",
+   "started_at": "2026-09-24T10:57:31.051628+00:00",
+   "finished_at": "2026-09-24T10:57:38.331628+00:00",
    "duration_ms": 7280,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -6204,12 +6209,12 @@
    "error": null
   },
   {
-   "run_id": "fed21ee1-b2ec-8b13-3450-07e12a6d2351",
+   "run_id": "2819d039-6492-4a3e-69c1-1a231d409783",
    "agent_name": "disambiguator",
    "input_ref_type": "faculty",
    "input_ref_id": "14d14a36-0bdf-a739-fb59-f5809a0d215b",
-   "started_at": "2026-09-24T02:18:46.576374+00:00",
-   "finished_at": "2026-09-24T02:18:51.192374+00:00",
+   "started_at": "2026-09-24T06:57:31.051628+00:00",
+   "finished_at": "2026-09-24T06:57:35.667628+00:00",
    "duration_ms": 4616,
    "tool_calls_made": 2,
    "step_budget_hit": false,
@@ -6287,14 +6292,14 @@
     "week_of": "2026-10-19",
     "agent_name": "disambiguator",
     "model": "claude-haiku-4-5",
-    "runs": 1,
+    "runs": 2,
     "budget_hits": 0,
-    "input_tokens": 4361,
-    "output_tokens": 438,
-    "tool_calls": 2,
-    "avg_duration_ms": 7885,
+    "input_tokens": 9497,
+    "output_tokens": 816,
+    "tool_calls": 4,
+    "avg_duration_ms": 6904,
     "p95_duration_ms": 7885,
-    "estimated_cost_usd": 0.0066
+    "estimated_cost_usd": 0.0136
    },
    {
     "week_of": "2026-10-19",
@@ -6328,12 +6333,12 @@
     "model": "claude-haiku-4-5",
     "runs": 3,
     "budget_hits": 0,
-    "input_tokens": 12533,
-    "output_tokens": 1516,
+    "input_tokens": 11733,
+    "output_tokens": 1470,
     "tool_calls": 6,
-    "avg_duration_ms": 7320,
+    "avg_duration_ms": 6764,
     "p95_duration_ms": 8277,
-    "estimated_cost_usd": 0.0201
+    "estimated_cost_usd": 0.0191
    },
    {
     "week_of": "2026-10-12",
@@ -6349,17 +6354,30 @@
     "estimated_cost_usd": 0.0822
    },
    {
+    "week_of": "2026-10-12",
+    "agent_name": "collaborator_analyst",
+    "model": "claude-sonnet-4-5",
+    "runs": 1,
+    "budget_hits": 0,
+    "input_tokens": 10132,
+    "output_tokens": 719,
+    "tool_calls": 3,
+    "avg_duration_ms": 12867,
+    "p95_duration_ms": 12867,
+    "estimated_cost_usd": 0.0412
+   },
+   {
     "week_of": "2026-10-05",
     "agent_name": "disambiguator",
     "model": "claude-haiku-4-5",
-    "runs": 8,
+    "runs": 7,
     "budget_hits": 0,
-    "input_tokens": 29534,
-    "output_tokens": 3093,
-    "tool_calls": 15,
-    "avg_duration_ms": 8300,
+    "input_tokens": 25198,
+    "output_tokens": 2761,
+    "tool_calls": 13,
+    "avg_duration_ms": 8877,
     "p95_duration_ms": 30120,
-    "estimated_cost_usd": 0.045
+    "estimated_cost_usd": 0.039
    },
    {
     "week_of": "2026-10-05",
@@ -6373,19 +6391,6 @@
     "avg_duration_ms": 37212,
     "p95_duration_ms": 42534,
     "estimated_cost_usd": 0.1885
-   },
-   {
-    "week_of": "2026-10-05",
-    "agent_name": "collaborator_analyst",
-    "model": "claude-sonnet-4-5",
-    "runs": 2,
-    "budget_hits": 0,
-    "input_tokens": 20821,
-    "output_tokens": 1649,
-    "tool_calls": 6,
-    "avg_duration_ms": 15284,
-    "p95_duration_ms": 17701,
-    "estimated_cost_usd": 0.0872
    },
    {
     "week_of": "2026-09-28",
@@ -6423,7 +6428,7 @@
     "strong_fits": 3,
     "possible_fits": 3,
     "faculty_with_primary": 2,
-    "thumbs_up": 0,
+    "thumbs_up": 2,
     "thumbs_down": 0,
     "applied": 0,
     "avg_score": 0.65
@@ -6436,9 +6441,9 @@
     "strong_fits": 1,
     "possible_fits": 6,
     "faculty_with_primary": 1,
-    "thumbs_up": 0,
+    "thumbs_up": 1,
     "thumbs_down": 0,
-    "applied": 1,
+    "applied": 0,
     "avg_score": 0.57
    },
    {
@@ -6462,9 +6467,9 @@
     "strong_fits": 1,
     "possible_fits": 5,
     "faculty_with_primary": 1,
-    "thumbs_up": 1,
-    "thumbs_down": 1,
-    "applied": 0,
+    "thumbs_up": 2,
+    "thumbs_down": 0,
+    "applied": 1,
     "avg_score": 0.58
    }
   ],
