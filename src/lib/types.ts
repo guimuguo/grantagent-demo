@@ -20,6 +20,7 @@ export type Match = {
   is_primary: boolean;
   is_collab_candidate: boolean;
   collaborators?: Collaborator[];
+  proposal_title?: string | null;
 };
 
 export type OpportunityRow = {
@@ -74,5 +75,6 @@ export type Collaborator = {
   college: string;
   expertise: string;
   why: string;
+  evidence?: string;
   coauthored_before: boolean;
 };

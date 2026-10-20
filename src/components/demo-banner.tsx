@@ -12,8 +12,10 @@ export function DemoBanner() {
         <span>
           <strong>Interactive demo.</strong> Shown from the perspective of
           Guimu Guo (real profile and publications); opportunities are real
-          grants.gov listings; all other people are fictional. Nothing you do
-          here is sent anywhere.
+          grants.gov listings; suggested collaborators on the BRAIN and eMB
+          matches are real Rowan faculty, identified from public publication
+          records; all other people are fictional. Nothing you do here is sent
+          anywhere.
         </span>
         <button
           type="button"

@@ -312,7 +312,10 @@ function MatchesList({
                 {m.rationale}
               </p>
               {!!m.collaborators?.length && (
-                <CollaboratorPanel people={m.collaborators} />
+                <CollaboratorPanel
+                  people={m.collaborators}
+                  proposalTitle={m.proposal_title}
+                />
               )}
               <Link
                 className="mt-2 inline-block text-xs underline"
@@ -328,9 +331,15 @@ function MatchesList({
   );
 }
 
-function CollaboratorPanel({ people }: { people: Collaborator[] }) {
+function CollaboratorPanel({
+  people,
+  proposalTitle,
+}: {
+  people: Collaborator[];
+  proposalTitle?: string | null;
+}) {
   const home = fixtures.profile;
-  const depts = [home.department, ...people.map((p) => p.department)];
+  const depts = [...new Set([home.department, ...people.map((p) => p.department)])];
   const nColleges = new Set([home.college, ...people.map((p) => p.college)]).size;
   const allNew = people.every((p) => !p.coauthored_before);
   return (
@@ -349,6 +358,16 @@ function CollaboratorPanel({ people }: { people: Collaborator[] }) {
         Proposed team: {depts.join(" + ")}
         {nColleges > 1 && ` (${nColleges} colleges)`}
       </p>
+      {proposalTitle && (
+        <div className="mt-3 rounded-md bg-emerald-600/10 px-3 py-2 dark:bg-emerald-400/10">
+          <div className="text-xs font-semibold uppercase tracking-wide text-emerald-800 dark:text-emerald-300">
+            Suggested proposal title
+          </div>
+          <div className="mt-0.5 font-bold text-emerald-950 dark:text-emerald-100">
+            {proposalTitle}
+          </div>
+        </div>
+      )}
       <ul className="mt-3 grid gap-3 sm:grid-cols-2">
         {people.map((p) => (
           <li
@@ -361,6 +380,11 @@ function CollaboratorPanel({ people }: { people: Collaborator[] }) {
             </div>
             <div className="mt-1 text-sm font-medium">{p.expertise}</div>
             <p className="mt-1 text-sm text-muted-foreground">{p.why}</p>
+            {p.evidence && (
+              <p className="mt-2 text-xs text-muted-foreground">
+                Their recent paper: <span className="italic">{p.evidence}</span>
+              </p>
+            )}
           </li>
         ))}
       </ul>

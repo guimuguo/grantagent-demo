@@ -73,7 +73,8 @@ export default function Home() {
           </span>{" "}
           ({fixtures.profile.department}, {fixtures.me.institution_name}),
           using his real publication profile. The {nOpps} opportunities are
-          real grants.gov listings; colleagues shown elsewhere are fictional.
+          real grants.gov listings; suggested collaborators are real Rowan
+          faculty; other colleagues shown are fictional.
         </p>
       </section>
 
@@ -89,7 +90,7 @@ export default function Home() {
           interdisciplinary teams. For those, GrantAgent suggests specific
           Rowan colleagues in other departments and colleges whose expertise
           completes the proposal, including people the faculty member has
-          never published with. See the{" "}
+          never published with, and drafts a joint proposal title. See the{" "}
           <span className="font-semibold underline">BRAIN Initiative</span> and{" "}
           <span className="font-semibold underline">Emerging Mathematics in Biology</span>{" "}
           matches in the faculty view

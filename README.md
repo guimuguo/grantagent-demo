@@ -12,7 +12,11 @@ matching service for university faculty.
 - **The demo user is Guimu Guo** (Computer Science, Rowan University) — his
   real publication profile from OpenAlex. His match rationales are
   illustrative examples written for the demo.
-- **Everyone else is fictional** — colleagues, collaborator suggestions,
+- **Suggested collaborators on the BRAIN and eMB matches are real Rowan
+  faculty**, identified from their public publication records (name,
+  department and one of their own recent papers). The proposal titles and
+  team rationales are illustrative.
+- **Everyone else is fictional** — colleagues, other subscribers,
   review-queue items and other faculty's agent transcripts are made up. Any
   resemblance to real people is coincidental.
 - **There is no backend.** Every API call is answered in the browser from
