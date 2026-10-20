@@ -1,0 +1,41 @@
+1:"$Sreact.fragment"
+2:I[3020,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js","/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js"],"SiteHeader"]
+3:I[74441,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js","/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js"],"SaveToggle"]
+8:I[97367,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T5ac,Eligible applicants: Others (see text field entitled "Additional Information on Eligibility" for clarification)
+
+Eligible Organizations
+Higher Education Institutions
+Public/State Controlled Institutions of Higher Education
+Private Institutions of Higher Education
+Nonprofits Other Than Institutions of Higher Education
+Nonprofits with 501(c)(3) IRS Status (Other than Institutions of Higher Education)
+Nonprofits without 501(c)(3) IRS Status (Other than Institutions of Higher Education)
+For-Profit Organizations
+Small Businesses
+For-Profit Organizations (Other than Small Businesses)
+Local Governments
+State Governments
+County Governments
+City or Township Governments
+Special District Governments
+Indian/Native American Tribal Governments (Federally Recognized)
+Indian/Native American Tribal Governments (Other than Federally Recognized)
+Federal Governments
+Eligible Agencies of the Federal Government
+U.S. Territory or Possession
+Other
+Independent School Districts
+Public Housing Authorities/Indian Housing Authorities
+Native American Tribal Organizations (other than Federally recognized tribal governments)
+Faith-based or Community-based Organizations
+Regional Organizations
+Foreign Organizations
+Non-domestic (non-U.S.) Entities (Foreign Organizations) are not eligible to apply.
+Non-domestic (non-U.S.) components of U.S. Organizations are not eligible to apply.
+Foreign components, as defined in the NIH Grants Policy Statement, are not allowed.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L2",null,{"session":{"faculty_id":"ea3567c1-39be-4dc0-ad63-689ab09ede95","full_name":"Guimu Guo","email":"guog@rowan.edu","role":"admin","institution_id":"4b85e382-0381-432e-a584-06785650689e","institution_name":"Rowan University"}}],["$","main",null,{"className":"mx-auto w-full max-w-3xl flex-1 px-6 py-8","children":[["$","div",null,{"className":"mb-6 flex flex-wrap items-start justify-between gap-3","children":[["$","div",null,{"className":"flex-1","children":[["$","h1",null,{"className":"text-2xl font-semibold tracking-tight","children":"NARMS Cooperative Agreement Program to Strengthen Antibiotic Resistance Surveillance in Retail Food Specimens"}],["$","p",null,{"className":"mt-1 text-muted-foreground","children":["Food and Drug Administration"," · 360006"]}]]}],["$","$L3",null,{"opportunityId":"da3be201-ca23-4116-9cf4-786138514ad9","initiallySaved":false}]]}],["$","div",null,{"className":"grid grid-cols-1 gap-4 rounded-lg border bg-card p-4 sm:grid-cols-3","children":[["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Deadline"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"2027-04-01"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Award range"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"$$0 – $200,000"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"First seen"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"4/23/2026"}]]}]]}],["$","p",null,{"className":"mt-4 text-sm","children":["$","a",null,{"className":"underline","href":"https://grants.gov/search-results-detail/360006","target":"_blank","rel":"noreferrer","children":"Open on agency site →"}]}],["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Summary"}],["$","div",null,{"className":"whitespace-pre-wrap text-sm leading-6 text-foreground/90","children":"This Funding Opportunity Announcement (FOA) issued by the Food and Drug Administration (FDA), Center for Veterinary Medicine (CVM), builds upon the National Antimicrobial Resistance Monitoring System (NARMS) which was initiated in 1996 as one of the key activities in a national action plan to combat antibiotic resistance threats. The purpose of this FOA is to protect and promote public health by enhancing, strengthening, and sustaining antibiotic resistance surveillance in retail food specimens within the NARMS program. The NARMS cooperative agreement is intended to improve the detection of antibiotic resistance among bacteria in food commodities, as well as expand to new sites to expand the scope of sampling. Measurable outcomes of the program will be in alignment with the NARMS Objectives."}]]}],["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Eligibility"}],["$","div",null,{"className":"whitespace-pre-wrap text-sm leading-6 text-foreground/90","children":"$4"}]]}]]}]]}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"X6WfAbiICABNwn7NdXXkF"}
+5:["$","script","script-0",{"src":"/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","async":true}]
+6:["$","script","script-1",{"src":"/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

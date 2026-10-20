@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:I[22016,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js","/grantagent-demo/_next/static/chunks/161o554d~qfa3.js","/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js"],""]
+5:I[97367,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:T6ab,[
+  {
+    "role": "user",
+    "content": "match_id: 2c81abe7-0969-21fe-397a-14da41260035\nopportunity_id: 67591dc8-c9c8-49fb-a939-e62d6e2cd6c9\nfaculty_id: ea3567c1-39be-4dc0-ad63-689ab09ede95"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Fetching the solicitation and the faculty profile."
+      },
+      {
+        "type": "tool_use",
+        "name": "opportunity_fetch",
+        "input": {
+          "opportunity_id": "67591dc8-c9c8-49fb-a939-e62d6e2cd6c9"
+        }
+      },
+      {
+        "type": "tool_use",
+        "name": "faculty_profile_lookup",
+        "input": {
+          "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool_call",
+    "tool": "opportunity_fetch",
+    "input": {
+      "opportunity_id": "67591dc8-c9c8-49fb-a939-e62d6e2cd6c9"
+    },
+    "result_preview": "{\"title\": \"Expeditions in Computing (Expeditions)\", \"agency\": \"U.S. National Science Foundation\", \"summary\": \"The far-reaching impact and rate of innovation in the computer and information science and engineering \\ufb01elds has been remarkable, generating economic prosperity, and enhancing the quality of life for people.\\nMore than a decade ago, the NSF \"}"
+  },
+  {
+    "role": "tool_call",
+    "tool": "faculty_profile_lookup",
+    "input": {
+      "faculty_id": "ea3567c1-39be-4dc0-ad63-689ab09ede95"
+    },
+    "result_preview": "{\"full_name\": \"Guimu Guo\", \"research_summary\": \"Guimu Guo's research focuses on GPU-accelerated graph mining algorithms. His primary work addresses maximal quasi-clique mining using GPU acceleration, extending computational efficiency to dense subg\"}"
+  }
+]0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"mx-auto w-full max-w-4xl flex-1 px-6 py-8","children":[["$","div",null,{"className":"mb-4","children":["$","$L2",null,{"href":"/admin/runs","children":"← All runs","data-slot":"button","data-variant":"ghost","data-size":"sm","className":"group/button inline-flex shrink-0 items-center justify-center border border-transparent bg-clip-padding font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:hover:bg-muted/50 h-7 gap-1 rounded-[min(var(--radius-md),12px)] px-2.5 text-[0.8rem] in-data-[slot=button-group]:rounded-lg has-data-[icon=inline-end]:pr-1.5 has-data-[icon=inline-start]:pl-1.5 [&_svg:not([class*='size-'])]:size-3.5","ref":null}]}],["$","div",null,{"className":"mb-6","children":[["$","h1",null,{"className":"text-2xl font-semibold tracking-tight","children":["competitiveness_analyst",null]}],["$","p",null,{"className":"mt-1 text-sm text-muted-foreground","children":["claude-sonnet-4-5"," · ","match",":",["$","span",null,{"className":"font-mono","children":"2c81abe7-0969-21fe-397a-14da41260035"}]," ·"," ","10/5/2026, 7:03:00 AM",[" → ","10/5/2026, 7:03:31 AM"]]}]]}],["$","div",null,{"className":"grid grid-cols-2 gap-4 rounded-lg border bg-card p-4 sm:grid-cols-4","children":[["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Duration"}],["$","div",null,{"className":"mt-1 text-sm font-medium tabular-nums","children":"31.9s"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Tool calls"}],["$","div",null,{"className":"mt-1 text-sm font-medium tabular-nums","children":"5"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Input tokens"}],["$","div",null,{"className":"mt-1 text-sm font-medium tabular-nums","children":"24,857"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Output tokens"}],["$","div",null,{"className":"mt-1 text-sm font-medium tabular-nums","children":"954"}]]}]]}],null,["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Output"}],["$","pre",null,{"className":"overflow-x-auto rounded bg-muted/40 px-3 py-2 text-xs","children":"{\n  \"competitiveness\": \"moderate\",\n  \"structural_disqualifiers\": [],\n  \"risks\": [\n    \"Early-career PI — reviewers will look for a strong senior co-investigator.\",\n    \"No prior award from this program.\"\n  ],\n  \"strengths\": [\n    \"Directly relevant recent publications (2025–2026).\",\n    \"Open-source artifacts demonstrate feasibility.\"\n  ]\n}"}]]}],["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Transcript"}],["$","pre",null,{"className":"max-h-[60vh] overflow-x-auto overflow-y-auto rounded bg-muted/40 px-3 py-2 text-xs","children":"$3"}]]}]]}],null,"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"X6WfAbiICABNwn7NdXXkF"}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[3020,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js","/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js"],"SiteHeader"]
+3:I[74441,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js","/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js"],"SaveToggle"]
+8:I[97367,["/grantagent-demo/_next/static/chunks/097_6~hnoak5u.js","/grantagent-demo/_next/static/chunks/0a9ghz59ajfru.js","/grantagent-demo/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+4:T5ca,The U.S. National Science Foundation Directorate for Mathematical and Physical Sciences (NSF MPS) supports multiple research programs at the frontiers of discovery in physics. Physics research supported by NSF MPS enables understanding of the fundamental aspects of nature at all scales, from the quantum effects inside atoms to the mysterious dark energy spanning the entire universe.
+The core research programs covered by this funding opportunity are:
+Atomic, Molecular, and Optical Physics - Experiment (AMO-Experiment)
+Atomic, Molecular, and Optical Physics - Theory (AMO-Theory)
+Elementary Particle Physics - Experiment (EPP-Experiment)
+Elementary Particle Physics, Astrophysics and Cosmology - Theory (EPP/Cosmology-Theory)
+Gravitational Physics
+Integrative Activities in Physics (IAP)
+Nuclear Physics - Experiment (NP-Experiment)
+Nuclear Physics - Theory (NP-Theory)
+Particle Astrophysics - Experiment (PA-Experiment)
+Physics of Living Systems (PoLS)
+Plasma Physics
+Quantum Information Science (QIS)
+The cross-cutting research programs covered by this funding opportunity are:
+Advanced Physics Instrumentation (API)
+Focused Research Hubs in Theoretical Physics (FRHTP)
+Physics at the Information Frontier (PIF)
+NSF MPS is particularly interested in intellectually ambitious and potentially transformative foundational research. Proposals need not promise a near-term product, deployment, or commercial outcome, nor need they address later-stage development to be competitive.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex min-h-screen flex-col","children":[["$","$L2",null,{"session":{"faculty_id":"ea3567c1-39be-4dc0-ad63-689ab09ede95","full_name":"Guimu Guo","email":"guog@rowan.edu","role":"admin","institution_id":"4b85e382-0381-432e-a584-06785650689e","institution_name":"Rowan University"}}],["$","main",null,{"className":"mx-auto w-full max-w-3xl flex-1 px-6 py-8","children":[["$","div",null,{"className":"mb-6 flex flex-wrap items-start justify-between gap-3","children":[["$","div",null,{"className":"flex-1","children":[["$","h1",null,{"className":"text-2xl font-semibold tracking-tight","children":"MPS Physics Research Programs (MPS Physics)"}],["$","p",null,{"className":"mt-1 text-muted-foreground","children":["U.S. National Science Foundation"," · 363621"]}]]}],["$","$L3",null,{"opportunityId":"4cd2d09f-fd5c-494b-98b5-a8b63b5d31b6","initiallySaved":false}]]}],["$","div",null,{"className":"grid grid-cols-1 gap-4 rounded-lg border bg-card p-4 sm:grid-cols-3","children":[["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Deadline"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"2076-10-06"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"Award range"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"— – —"}]]}],["$","div",null,{"children":[["$","div",null,{"className":"text-xs uppercase tracking-wide text-muted-foreground","children":"First seen"}],["$","div",null,{"className":"mt-1 text-sm font-medium","children":"8/18/2026"}]]}]]}],["$","p",null,{"className":"mt-4 text-sm","children":["$","a",null,{"className":"underline","href":"https://grants.gov/search-results-detail/363621","target":"_blank","rel":"noreferrer","children":"Open on agency site →"}]}],["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Summary"}],["$","div",null,{"className":"whitespace-pre-wrap text-sm leading-6 text-foreground/90","children":"$4"}]]}],["$","section",null,{"className":"mt-8","children":[["$","h2",null,{"className":"mb-2 text-lg font-semibold","children":"Eligibility"}],["$","div",null,{"className":"whitespace-pre-wrap text-sm leading-6 text-foreground/90","children":"Eligible applicants: Unrestricted (i.e., open to any type of entity above), subject to any clarification in text field entitled \"Additional Information on Eligibility\""}]]}]]}]]}],["$L5","$L6"],"$L7"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"X6WfAbiICABNwn7NdXXkF"}
+5:["$","script","script-0",{"src":"/grantagent-demo/_next/static/chunks/138nigk-y9jwv.js","async":true}]
+6:["$","script","script-1",{"src":"/grantagent-demo/_next/static/chunks/00-_9n6s6p252.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null
