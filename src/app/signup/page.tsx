@@ -83,7 +83,7 @@ export default function SignupPage() {
         <CardHeader>
           <CardTitle>Sign up</CardTitle>
           <CardDescription>
-            grantAgent is currently open to faculty at participating .edu
+            GrantAgent is currently open to faculty at participating .edu
             institutions.
           </CardDescription>
         </CardHeader>

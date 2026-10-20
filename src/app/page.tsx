@@ -51,7 +51,7 @@ export default function Home() {
       <section className="flex flex-col items-center gap-5 text-center">
         <Badge variant="secondary">Prototype demo</Badge>
         <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-          grantAgent
+          GrantAgent
         </h1>
         <p className="max-w-2xl text-lg text-muted-foreground">
           Weekly federal funding matches for tenure-track faculty — matched to

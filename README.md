@@ -1,6 +1,6 @@
-# grantAgent — interactive demo
+# GrantAgent — interactive demo
 
-A static, clickable prototype of **grantAgent**, a weekly federal-funding
+A static, clickable prototype of **GrantAgent**, a weekly federal-funding
 matching service for university faculty.
 
 **Live demo:** https://guimuguo.github.io/grantagent-demo/

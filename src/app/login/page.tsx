@@ -99,7 +99,7 @@ export default function LoginPage() {
             <Alert>
               <AlertTitle>No password</AlertTitle>
               <AlertDescription>
-                grantAgent uses magic-link login. You&apos;ll click a link in your
+                GrantAgent uses magic-link login. You&apos;ll click a link in your
                 email to sign in.
               </AlertDescription>
             </Alert>

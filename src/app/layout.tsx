@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "grantAgent — demo",
-  description: "Interactive demo of grantAgent: weekly federal funding matches for faculty.",
+  title: "GrantAgent — demo",
+  description: "Interactive demo of GrantAgent: weekly federal funding matches for faculty.",
 };
 
 export default function RootLayout({
